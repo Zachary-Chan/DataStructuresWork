@@ -1,33 +1,26 @@
 #include <iostream>
 #include <stack>
-#include <queue>
+#include <string>
 #include <cctype>
 using std::stack;
-using std::queue;
+using std::string;
 
 int main() {
-    char ch {};
-    queue<char> queue {};
+    string str {};
     stack<char> stk {};
 
-    std::cin >> std::noskipws >> ch;
-    while ( !std::isspace(ch) ) {
-        stk.push(ch);
-        queue.push(ch);
-
-        std::cin >> ch;
+    std::getline(std::cin, str);
+    for (const auto& x : str) {
+      stk.push(x);
     }
 
-    while ( !stk.empty() ) {
-        if (stk.top() != queue.front() ) {
-            std::cout << "NO\n";
-            return 0;
-        }
-
-        stk.pop();
-        queue.pop();
+    for (const auto& x : str) {
+      if (stk.top() != x) {
+        std::cout << "NO\n";
+        return 0;
+      }
+      stk.pop();
     }
 
     std::cout << "YES\n";
 }
-
