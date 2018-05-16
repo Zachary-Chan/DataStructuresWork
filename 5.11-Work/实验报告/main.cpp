@@ -42,19 +42,19 @@ int main() {
     // Construct a tree.
     BinaryTree<int> bT;
 
-    auto* p5 {new Node {5} };
-    auto* p6 {new Node {6} };
-    auto* p9 {new Node {9} };
-    auto* p10 {new Node {10} };
+    auto* p5 = new Node {5};
+    auto* p6 = new Node {6};
+    auto* p9 = new Node {9};
+    auto* p10 = new Node {10};
 
-    auto* p4 {new Node {4, p5, p6} };
-    auto* p7 {new Node {7, nullptr, p9} };
-    auto* p8 {new Node {8, nullptr, p10} };
+    auto* p4 = new Node {4, p5, p6};
+    auto* p7 = new Node {7, nullptr, p9};
+    auto* p8 = new Node {8, nullptr, p10};
 
-    auto* p2 {new Node {2, p4} };
-    auto* p3 {new Node {3, p7, p8} };
+    auto* p2 = new Node {2, p4};
+    auto* p3 = new Node {3, p7, p8};
 
-    auto* p1 {new Node {1, p2, p3} };
+    auto* p1 = new Node {1, p2, p3};
     bT.root = p1;
     // Accomplish constructing.
 
