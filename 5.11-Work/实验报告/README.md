@@ -6,9 +6,9 @@
 # Code::Blocks运行此源码的注意事项
 ## 将编译器设置为支持C++11标准
 * Settings ----- Compiler
-[设置编译器1]: https://github.com/Zachary-Chan/DataStructuresWork/tree/master/5.11-Work/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/Link1.jpg
+[设置编译器1]: https://github.com/Zachary-Chan/DataStructuresWork/tree/master/5.11-Work/实验报告/Link1.jpg
 * Have g++ follow the C++11 ISO...
-[设置编译器2]: https://github.com/Zachary-Chan/DataStructuresWork/tree/master/5.11-Work/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/Link2.jpg
+[设置编译器2]: https://github.com/Zachary-Chan/DataStructuresWork/tree/master/5.11-Work/实验报告/Link2.jpg
 # In the end
 * Good luck guys!
 * 如果有不懂的地方可以直接联系我（24 * 7 online）
